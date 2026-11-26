@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Keluarga APRIDYAN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== MENU ATAS ===== -->
+  <header class="nav">
+    <a href="#atas" class="brand">
+      <svg viewBox="0 0 32 32" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15 16 4l12 11"/><path d="M7 13v15h18V13"/><path d="M16 24.5s-5-3.2-5-6.6a2.9 2.9 0 0 1 5-1.9 2.9 2.9 0 0 1 5 1.9c0 3.4-5 6.6-5 6.6z"/></svg>
+      <!-- GANTI nama keluarga di sini -->
+      <span>APRIDYAN</span>
+    </a>
+    <nav class="nav-links" aria-label="Menu utama">
+      <a href="#tentang">Tentang</a>
+      <a href="#anggota">Anggota</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#acara">Ulang Tahun</a>
+      <a href="#ucapan">Ucapan</a>
+    </nav>
+    <a href="#ucapan" class="btn btn-dark">Kirim Ucapan</a>
+  </header>
+
+  <!-- ===== HERO (bagian utama + foto keluarga) ===== -->
+  <section id="atas" class="hero">
+    <div class="hero-text">
+      <span class="badge">Rumah kecil, cinta yang besar</span>
+      <h1>Tempat semua cerita keluarga <em>pulang</em>.</h1>
+      <p>Satu halaman untuk menyimpan kenangan, mengatur acara kumpul, dan saling mengirim doa serta ucapan, dari kakek nenek sampai si kecil.</p>
+      <div class="hero-actions">
+        <a href="#galeri" class="btn btn-red">Lihat Kenangan</a>
+        <a href="#acara" class="btn btn-outline">Ulang Tahun Keluarga</a>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <!-- FOTO: ganti file di folder foto/ (lihat README.txt) -->
+      <img class="art-arch" src="foto/keluarga.jpg" alt="Foto keluarga lengkap">
+      <img class="art-circle float" src="foto/logo.jpg" alt="Foto adik">
+      <img class="art-square float2" src="foto/remend.jpeg" alt="Foto kakak">
+      <div class="art-chip">Kenangan masa Bersama</div>
+    </div>
+  </section>
+
+  <!-- ===== LOGO BERJALAN 1 ===== -->
+  <section class="marquee marquee-green" aria-label="Nilai keluarga">
+    <div class="marquee-wrap">
+      <div class="marquee-track" data-marquee>
+        <!-- Tambah / ubah tulisan di sini. Logo rumah-hati otomatis muncul di antara tulisan. -->
+        <span>Kebersamaan</span>
+        <span>Tawa Bersama</span>
+        <span>Masakan Rumah</span>
+        <span>Reuni Tahunan</span>
+        <span>Liburan Keluarga</span>
+        <span>Doa dan Syukur</span>
+        <span>Cerita Kita</span>
+        <span>Rumah Penuh Cinta</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG ===== -->
+  <section id="tentang" class="section container">
+    <div class="head">
+      <p class="eyebrow">Tentang kami</p>
+      <h2>Keluarga adalah rumah yang kita bawa ke mana pun.</h2>
+      <p class="lead">Dari meja makan sampai grup obrolan, dari tawa kecil sampai doa panjang. Di sini kami menyimpan hal-hal yang membuat kami tetap dekat.</p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <h3>Kebersamaan</h3>
+        <p>Sesibuk apa pun, kami selalu menyisihkan waktu untuk duduk satu meja dan saling bercerita.</p>
+      </article>
+      <article class="card">
+        <h3>Tradisi</h3>
+        <p>Resep turun-temurun, doa sebelum makan, dan kebiasaan kecil yang kami jaga dari generasi ke generasi.</p>
+      </article>
+      <article class="card">
+        <h3>Kenangan</h3>
+        <p>Setiap foto dan cerita kami simpan rapi, supaya anak cucu bisa mengenal siapa kami.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== ANGGOTA KELUARGA (dengan foto) ===== -->
+  <section id="anggota" class="section sand">
+    <div class="container">
+      <div class="head">
+        <p class="eyebrow">Anggota keluarga</p>
+        <h2>Orang-orang di balik cerita ini.</h2>
+      </div>
+      <div class="members">
+        <!-- Salin satu blok <figure> untuk menambah anggota -->
+        <figure class="member">
+          <img src="foto/ayah.jpeg" alt="Foto Ayah">
+          <figcaption>
+            <h3>Ayah</h3>
+            <span>Kepala keluarga</span>
+            <p>Penjaga rumah, tukang cerita lucu, dan koki kopi pagi.</p>
+          </figcaption>
+        </figure>
+        <figure class="member">
+          <img src="foto/mmh.jpeg" alt="Foto Ibu">
+          <figcaption>
+            <h3>Ibu</h3>
+            <span>Jantung rumah</span>
+            <p>Pemilik resep andalan dan sumber doa yang tak pernah putus.</p>
+          </figcaption>
+        </figure>
+        <figure class="member">
+          <img src="foto/teteh.jpeg" alt="Foto Kakak">
+          <figcaption>
+            <h3>Teteh</h3>
+            <span>Anak sulung</span>
+            <p>Teladan adik-adik dan penengah setiap rebutan remote.</p>
+          </figcaption>
+        </figure>
+        <figure class="member">
+          <img src="foto/gw.jpeg" alt="Foto MY">
+          <figcaption>
+            <h3>Kakak</h3>
+            <span>Anak tengah</span>
+            <p>ah gitu loh yah.</p>
+          </figcaption>
+        </figure>
+        <figure class="member">
+          <img src="foto/ultah-adik-1.jpg" alt="Foto Adik">
+          <figcaption>
+            <h3>Adik</h3>
+            <span>Si bungsu</span>
+            <p>Pembuat suasana ramai dan pemilik tawa paling keras.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERI ===== -->
+  <section id="galeri" class="section container">
+    <div class="head">
+      <p class="eyebrow">Kenangan masa kecil</p>
+      <h2>Dulu sekecil ini, semuanya kami simpan.</h2>
+      <p class="lead">Taruh foto di folder foto/ dengan nama galeri-1.jpg sampai galeri-30.jpg, otomatis muncul di sini. Foto berjalan dari kanan ke kiri dan berhenti saat disentuh.</p>
+    </div>
+    <div class="strips">
+      <!-- Tiap kotak = 1 foto. Foto berjalan dari kanan ke kiri, otomatis digandakan oleh script.js.
+           Mau tambah? Salin satu baris, ganti angka t13, t14, dst,
+           lalu tambahkan aturannya di style.css (cari ".t30"). -->
+      <!-- BARIS 1: foto 1 - 10 -->
+      <div class="strip-wrap">
+        <div class="strip-track" data-strip>
+          <div class="tile t1"></div>
+          <div class="tile t2"></div>
+          <div class="tile t3"></div>
+          <div class="tile t4"></div>
+          <div class="tile t5 wide"></div>
+          <div class="tile t6"></div>
+          <div class="tile t7"></div>
+          <div class="tile t8"></div>
+          <div class="tile t9"></div>
+          <div class="tile t10"></div>
+        </div>
+      </div>
+      <!-- BARIS 2: foto 11 - 20 -->
+      <div class="strip-wrap">
+        <div class="strip-track mid" data-strip>
+          <div class="tile t11"></div>
+          <div class="tile t12 wide"></div>
+          <div class="tile t13"></div>
+          <div class="tile t14"></div>
+          <div class="tile t15"></div>
+          <div class="tile t16"></div>
+          <div class="tile t17"></div>
+          <div class="tile t18"></div>
+          <div class="tile t19"></div>
+          <div class="tile t20"></div>
+        </div>
+      </div>
+      <!-- BARIS 3: foto 21 - 30 -->
+      <div class="strip-wrap">
+        <div class="strip-track slow" data-strip>
+          <div class="tile t21"></div>
+          <div class="tile t22"></div>
+          <div class="tile t23"></div>
+          <div class="tile t24 wide"></div>
+          <div class="tile t25"></div>
+          <div class="tile t26"></div>
+          <div class="tile t27"></div>
+          <div class="tile t28"></div>
+          <div class="tile t29"></div>
+          <div class="tile t30"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOGO BERJALAN 2 (arah sebaliknya) ===== -->
+  <section class="marquee marquee-yellow" aria-label="Kegiatan keluarga">
+    <div class="marquee-wrap">
+      <div class="marquee-track reverse" data-marquee>
+        <span>Tiup Lilin Bersama</span>
+        <span>Piknik Akhir Pekan</span>
+        <span>Foto Bersama</span>
+        <span>Kue Ulang Tahun</span>
+        <span>Masak Bareng</span>
+        <span>Main Sama Sepupu</span>
+        <span>Cerita Kakek Nenek</span>
+        <span>Doa Bersama</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACARA ===== -->
+  <section id="acara" class="section container">
+    <div class="head">
+      <p class="eyebrow">Ulang tahun keluarga</p>
+      <h2>Setiap tahun, ada lilin yang kami tiup bersama.</h2>
+      <p class="lead">Ulang tahun anak-anak dan orang tua, dari tahun ke tahun.</p>
+    </div>
+    <div class="events">
+      <!-- GANTI tanggal & bulan di kotak berwarna -->
+
+
+
+      <!-- KARTU 2: ORANG TUA (2 orang).
+           Foto: ultah-ortu-1.jpg, ultah-ortu-2.jpg, ultah-ortu-3.jpg di folder foto/ -->
+      <article class="bday ortu">
+        <div class="bday-photos">
+          <div class="ph main a1"><span>Ulang tahun orang tua</span></div>
+          <div class="ph a2"></div>
+          <div class="ph a3"></div>
+        </div>
+        <div class="bday-info">
+          <h3>Ulang Tahun Orang Tua</h3>
+          <ul class="bday-list">
+            <li>
+              <div class="date c-green"><b>22</b><small>Desember</small></div>
+              <div class="txt"><h4>Ibu</h4><p>Ke 47th</p></div>
+            </li>
+            <li>
+              <div class="date c-red"><b>4</b><small>juni</small></div>
+              <div class="txt"><h4>Ayah</h4><p>Ke 48th</p></div>
+            </li>
+          </ul>
+          <a href="#ucapan" class="btn btn-dark">Kirim Ucapan</a>
+        </div>
+      </article>
+      <!-- Mau tambah anak ke-4? Salin satu blok <article class="bday"> ... </article> anak,
+           ganti nama dan tanggal, lalu tambah foto barunya di style.css (cari ".s1"). -->
+    </div>
+  </section>
+
+  <!-- ===== BUKU UCAPAN ===== -->
+  <section id="ucapan" class="section sand">
+    <div class="container two-col">
+      <div>
+        <p class="eyebrow">Buku ucapan</p>
+        <h2>Tulis sepatah dua patah kata untuk keluarga.</h2>
+        <p class="lead">Doa, kabar, atau sekadar sapaan hangat. Ucapan tersimpan di browser ini dan tampil di bawah form.</p>
+        <p class="contact">ApridyanNabil@gmail.com</p>
+      </div>
+      <div>
+        <form id="form-ucapan" class="form">
+          <label for="nama">Nama kamu</label>
+          <input id="nama" type="text" placeholder="Contoh: Om Budi" required>
+          <label for="pesan">Pesan untuk keluarga</label>
+          <textarea id="pesan" rows="5" placeholder="Tulis ucapanmu di sini" required></textarea>
+          <button type="submit" class="btn btn-red">Kirim Ucapan</button>
+        </form>
+        <ul id="daftar-ucapan" class="wishes" aria-live="polite"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand">
+            <svg viewBox="0 0 32 32" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15 16 4l12 11"/><path d="M7 13v15h18V13"/><path d="M16 24.5s-5-3.2-5-6.6a2.9 2.9 0 0 1 5-1.9 2.9 2.9 0 0 1 5 1.9c0 3.4-5 6.6-5 6.6z"/></svg>
+            <span>APRIDYAN</span>
+          </div>
+          <p>Rumah kecil dengan cinta yang besar. Terima kasih sudah singgah.</p>
+        </div>
+        <nav class="footer-links" aria-label="Menu footer">
+          <a href="#tentang">Tentang</a>
+          <a href="#anggota">Anggota</a>
+          <a href="#galeri">Galeri</a>
+          <a href="#acara">Ulang Tahun</a>
+          <a href="#atas">Kembali ke atas</a>
+        </nav>
+      </div>
+      <p class="copy">&copy; <span id="tahun">2026</span> Keluarga APRIDYAN. Dibuat dengan cinta.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
